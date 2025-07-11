@@ -1,1 +1,1 @@
-# travelhub-app
+Web application for the travel domain, built with PHP, JavaScript, and MySQL. Features include user authentication, CRUD operations, profile management, post and comment system, and a responsive interface styled with Bootstrap.
