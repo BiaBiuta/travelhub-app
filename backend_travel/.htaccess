@@ -1,0 +1,2 @@
+ErrorDocument 404 http://localhost/aplicatie_travel/Error404.php
+RewriteEngine On

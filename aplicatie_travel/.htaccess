@@ -1,0 +1,8 @@
+ErrorDocument 404 http://localhost/aplicatie_travel/Error404.php
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^(.).$ /Error404.php [L]
+RewriteRule ^/?$ /index.php [R=301,L]
